@@ -1,0 +1,599 @@
+    PID     LWP TTY          TIME CMD
+      1       1 ?        00:00:02 systemd
+      2       2 ?        00:00:00 kthreadd
+      3       3 ?        00:00:00 rcu_gp
+      4       4 ?        00:00:00 rcu_par_gp
+      6       6 ?        00:00:00 kworker/0:0H
+      9       9 ?        00:00:00 mm_percpu_wq
+     10      10 ?        00:00:03 ksoftirqd/0
+     11      11 ?        00:00:06 rcu_sched
+     12      12 ?        00:00:00 migration/0
+     13      13 ?        00:00:00 idle_inject/0
+     14      14 ?        00:00:00 cpuhp/0
+     15      15 ?        00:00:00 kdevtmpfs
+     16      16 ?        00:00:00 netns
+     17      17 ?        00:00:00 rcu_tasks_kthre
+     18      18 ?        00:00:00 rcu_tasks_rude_
+     19      19 ?        00:00:00 rcu_tasks_trace
+     20      20 ?        00:00:00 kauditd
+     21      21 ?        00:00:00 khungtaskd
+     22      22 ?        00:00:00 oom_reaper
+     23      23 ?        00:00:00 writeback
+     24      24 ?        00:00:00 kcompactd0
+     25      25 ?        00:00:00 ksmd
+     26      26 ?        00:00:00 khugepaged
+     72      72 ?        00:00:00 kintegrityd
+     73      73 ?        00:00:00 kblockd
+     74      74 ?        00:00:00 blkcg_punt_bio
+     75      75 ?        00:00:00 tpm_dev_wq
+     76      76 ?        00:00:00 ata_sff
+     77      77 ?        00:00:00 md
+     78      78 ?        00:00:00 edac-poller
+     79      79 ?        00:00:00 devfreq_wq
+     80      80 ?        00:00:00 watchdogd
+     82      82 ?        00:00:00 pm_wq
+     84      84 ?        00:00:40 kswapd0
+     85      85 ?        00:00:00 ecryptfs-kthrea
+     87      87 ?        00:00:00 kthrotld
+     88      88 ?        00:00:00 acpi_thermal_pm
+     89      89 ?        00:00:00 scsi_eh_0
+     90      90 ?        00:00:00 scsi_tmf_0
+     91      91 ?        00:00:00 scsi_eh_1
+     92      92 ?        00:00:00 scsi_tmf_1
+     94      94 ?        00:00:00 vfio-irqfd-clea
+     96      96 ?        00:00:00 ipv6_addrconf
+    105     105 ?        00:00:00 kstrp
+    108     108 ?        00:00:00 zswap-shrink
+    109     109 ?        00:00:00 kworker/u3:0
+    114     114 ?        00:00:00 charger_manager
+    149     149 ?        00:00:00 scsi_eh_2
+    152     152 ?        00:00:00 scsi_tmf_2
+    154     154 ?        00:00:17 kworker/0:1H-kblockd
+    174     174 ?        00:00:00 jbd2/sda5-8
+    175     175 ?        00:00:00 ext4-rsv-conver
+    214     214 ?        00:00:01 systemd-journal
+    235     235 ?        00:00:00 systemd-udevd
+    236     236 ?        00:00:00 irq/18-vmwgfx
+    237     237 ?        00:00:00 ttm_swap
+    248     248 ?        00:00:00 loop0
+    249     249 ?        00:00:00 loop1
+    252     252 ?        00:00:00 loop2
+    253     253 ?        00:00:00 loop3
+    261     261 ?        00:00:00 loop4
+    265     265 ?        00:00:00 loop5
+    266     266 ?        00:00:00 loop6
+    270     270 ?        00:00:00 loop7
+    286     286 ?        00:00:00 iprt-VBoxWQueue
+    331     331 ?        00:00:00 cryptd
+    492     492 ?        00:00:01 systemd-resolve
+    493     493 ?        00:00:00 systemd-timesyn
+    493     503 ?        00:00:00 sd-resolve
+    525     525 ?        00:00:00 accounts-daemon
+    525     531 ?        00:00:00 gmain
+    525     607 ?        00:00:00 gdbus
+    526     526 ?        00:00:00 acpid
+    528     528 ?        00:00:00 avahi-daemon
+    530     530 ?        00:00:00 cron
+    534     534 ?        00:00:00 cupsd
+    535     535 ?        00:00:02 dbus-daemon
+    536     536 ?        00:00:01 NetworkManager
+    536     582 ?        00:00:00 gmain
+    536     610 ?        00:00:00 gdbus
+    551     551 ?        00:00:00 networkd-dispat
+    554     554 ?        00:00:01 polkitd
+    554     558 ?        00:00:00 gmain
+    554     608 ?        00:00:00 gdbus
+    562     562 ?        00:00:00 rsyslogd
+    562     588 ?        00:00:00 in:imuxsock
+    562     589 ?        00:00:00 in:imklog
+    562     590 ?        00:00:00 rs:main Q:Reg
+    566     566 ?        00:00:00 snapd
+    566     735 ?        00:00:00 snapd
+    566     736 ?        00:00:00 snapd
+    566     737 ?        00:00:00 snapd
+    566     738 ?        00:00:03 snapd
+    566     743 ?        00:00:03 snapd
+    566     744 ?        00:00:00 snapd
+    566     745 ?        00:00:00 snapd
+    566    6495 ?        00:00:00 snapd
+    567     567 ?        00:00:00 switcheroo-cont
+    567     585 ?        00:00:00 gmain
+    567     611 ?        00:00:00 gdbus
+    570     570 ?        00:00:00 systemd-logind
+    574     574 ?        00:00:00 udisksd
+    574     580 ?        00:00:00 gmain
+    574     609 ?        00:00:00 gdbus
+    574     636 ?        00:00:00 probing-thread
+    574     657 ?        00:00:00 cleanup
+    579     579 ?        00:00:00 wpa_supplicant
+    587     587 ?        00:00:00 avahi-daemon
+    615     615 ?        00:00:00 cups-browsed
+    615     642 ?        00:00:00 gmain
+    615     643 ?        00:00:00 gdbus
+    633     633 ?        00:00:00 ModemManager
+    633     649 ?        00:00:00 gmain
+    633     653 ?        00:00:00 gdbus
+    648     648 ?        00:00:00 unattended-upgr
+    648     659 ?        00:00:00 gmain
+    677     677 ?        00:00:00 whoopsie
+    677     703 ?        00:00:00 gmain
+    677     707 ?        00:00:00 gdbus
+    680     680 ?        00:00:00 kerneloops
+    691     691 ?        00:00:00 kerneloops
+    706     706 ?        00:00:00 iprt-VBoxWQueue
+    718     718 ?        00:00:00 iprt-VBoxTscThr
+    872     872 ?        00:00:00 gdm3
+    872     874 ?        00:00:00 gmain
+    872     875 ?        00:00:00 gdbus
+    884     884 ?        00:00:00 VBoxService
+    884     885 ?        00:00:00 RTThrdPP
+    884     886 ?        00:00:00 control
+    884     887 ?        00:00:00 timesync
+    884     888 ?        00:00:01 vminfo
+    884     889 ?        00:00:00 cpuhotplug
+    884     890 ?        00:00:00 memballoon
+    884     891 ?        00:00:00 vmstats
+    884     892 ?        00:00:00 automount
+    944     944 ?        00:00:00 rtkit-daemon
+    944     945 ?        00:00:00 rtkit-daemon
+    944     946 ?        00:00:00 rtkit-daemon
+   1003    1003 ?        00:00:00 upowerd
+   1003    1013 ?        00:00:00 gmain
+   1003    1014 ?        00:00:00 gdbus
+   1218    1218 ?        00:00:00 colord
+   1218    1221 ?        00:00:00 gmain
+   1218    1223 ?        00:00:00 gdbus
+   1253    1253 ?        00:00:00 gdm-session-wor
+   1253    1254 ?        00:00:00 gmain
+   1253    1255 ?        00:00:00 gdbus
+   1259    1259 ?        00:00:00 systemd
+   1260    1260 ?        00:00:00 (sd-pam)
+   1267    1267 ?        00:00:00 pulseaudio
+   1267    1353 ?        00:00:01 alsa-sink-Intel
+   1267    1415 ?        00:00:00 alsa-source-Int
+   1267    1476 ?        00:00:00 snapd-glib
+   1269    1269 ?        00:00:00 tracker-miner-f
+   1269    1276 ?        00:00:00 gmain
+   1269    1278 ?        00:00:00 gdbus
+   1269    1285 ?        00:00:00 dconf worker
+   1269    1350 ?        00:00:00 pool-tracker-mi
+   1271    1271 ?        00:00:00 gnome-keyring-d
+   1271    1272 ?        00:00:00 gmain
+   1271    1273 ?        00:00:00 gdbus
+   1271    1519 ?        00:00:00 timer
+   1275    1275 ?        00:00:01 dbus-daemon
+   1279    1279 ?        00:00:00 gvfsd
+   1279    1280 ?        00:00:00 gmain
+   1279    1281 ?        00:00:00 gdbus
+   1284    1284 ?        00:00:00 gvfsd-fuse
+   1284    1302 ?        00:00:00 gvfsd-fuse
+   1284    1303 ?        00:00:00 gvfsd-fuse
+   1284    1304 ?        00:00:00 gmain
+   1284    1305 ?        00:00:00 gdbus
+   1284    1308 ?        00:00:00 gvfs-fuse-sub
+   1297    1297 ?        00:00:00 gvfs-udisks2-vo
+   1297    1298 ?        00:00:00 gmain
+   1297    1301 ?        00:00:00 gdbus
+   1297    1309 ?        00:00:00 dconf worker
+   1307    1307 tty2     00:00:00 gdm-x-session
+   1307    1310 tty2     00:00:00 gmain
+   1307    1356 tty2     00:00:00 gdbus
+   1311    1311 tty2     00:01:45 Xorg
+   1311    1332 tty2     00:00:00 Xorg:disk$0
+   1311    1333 tty2     00:00:00 Xorg:disk$1
+   1311    1334 tty2     00:00:00 Xorg:disk$2
+   1311    1335 tty2     00:00:00 Xorg:disk$3
+   1311    1357 tty2     00:00:07 InputThread
+   1313    1313 ?        00:00:00 gvfs-gphoto2-vo
+   1313    1314 ?        00:00:00 gmain
+   1313    1316 ?        00:00:00 gdbus
+   1317    1317 ?        00:00:00 gvfs-afc-volume
+   1317    1318 ?        00:00:00 gvfs-afc-volume
+   1317    1319 ?        00:00:00 gmain
+   1317    1322 ?        00:00:00 gdbus
+   1323    1323 ?        00:00:00 gvfs-mtp-volume
+   1323    1324 ?        00:00:00 gmain
+   1323    1326 ?        00:00:00 gdbus
+   1327    1327 ?        00:00:00 gvfs-goa-volume
+   1327    1328 ?        00:00:00 gmain
+   1327    1329 ?        00:00:00 gdbus
+   1331    1331 ?        00:00:00 goa-daemon
+   1331    1338 ?        00:00:00 gmain
+   1331    1340 ?        00:00:00 gdbus
+   1331    1341 ?        00:00:00 dconf worker
+   1344    1344 ?        00:00:00 goa-identity-se
+   1344    1347 ?        00:00:00 gmain
+   1344    1349 ?        00:00:00 gdbus
+   1360    1360 tty2     00:00:00 gnome-session-b
+   1360    1487 tty2     00:00:00 gmain
+   1360    1488 tty2     00:00:00 gdbus
+   1436    1436 ?        00:00:00 VBoxClient
+   1437    1437 ?        00:00:00 VBoxClient
+   1437    1439 ?        00:00:00 RTThrdPP
+   1437    1440 ?        00:00:00 SHCLX11
+   1448    1448 ?        00:00:00 VBoxClient
+   1449    1449 ?        00:00:00 VBoxClient
+   1449    1450 ?        00:00:00 RTThrdPP
+   1449    1451 ?        00:00:00 X11 events
+   1455    1455 ?        00:00:00 VBoxClient
+   1456    1456 ?        00:00:00 VBoxClient
+   1456    1457 ?        00:00:00 RTThrdPP
+   1456    1458 ?        00:00:00 dndHGCM
+   1456    1459 ?        00:00:19 dndX11
+   1463    1463 ?        00:00:00 VBoxClient
+   1464    1464 ?        00:00:00 VBoxClient
+   1464    1465 ?        00:00:00 RTThrdPP
+   1464    1466 ?        00:00:00 X11 events
+   1470    1470 ?        00:00:00 ssh-agent
+   1494    1494 ?        00:00:00 at-spi-bus-laun
+   1494    1495 ?        00:00:00 gmain
+   1494    1496 ?        00:00:00 gdbus
+   1494    1497 ?        00:00:00 dconf worker
+   1500    1500 ?        00:00:00 dbus-daemon
+   1513    1513 ?        00:00:00 gnome-session-c
+   1513    1515 ?        00:00:00 gmain
+   1520    1520 ?        00:00:00 gnome-session-b
+   1520    1521 ?        00:00:00 gmain
+   1520    1522 ?        00:00:00 gdbus
+   1520    1524 ?        00:00:00 dconf worker
+   1534    1534 ?        00:05:02 gnome-shell
+   1534    1546 ?        00:00:00 gmain
+   1534    1548 ?        00:00:00 gdbus
+   1534    1549 ?        00:00:00 dconf worker
+   1534    1550 ?        00:00:00 gnome-s:disk$0
+   1534    1551 ?        00:00:00 gnome-s:disk$1
+   1534    1552 ?        00:00:00 gnome-s:disk$2
+   1534    1553 ?        00:00:00 gnome-s:disk$3
+   1534    1554 ?        00:00:00 JS Helper
+   1534    1555 ?        00:00:00 JS Helper
+   1534    1889 ?        00:00:00 threaded-ml
+   1556    1556 ?        00:00:00 ibus-daemon
+   1556    1557 ?        00:00:00 gmain
+   1556    1558 ?        00:00:00 gdbus
+   1560    1560 ?        00:00:00 ibus-dconf
+   1560    1568 ?        00:00:00 gmain
+   1560    1571 ?        00:00:00 gdbus
+   1560    1572 ?        00:00:00 dconf worker
+   1561    1561 ?        00:00:01 ibus-extension-
+   1561    1573 ?        00:00:00 gmain
+   1561    1574 ?        00:00:00 gdbus
+   1561    1582 ?        00:00:00 dconf worker
+   1563    1563 ?        00:00:00 ibus-x11
+   1563    1575 ?        00:00:00 gmain
+   1563    1577 ?        00:00:00 gdbus
+   1565    1565 ?        00:00:00 ibus-portal
+   1565    1566 ?        00:00:00 gmain
+   1565    1567 ?        00:00:00 gdbus
+   1579    1579 ?        00:00:01 at-spi2-registr
+   1579    1580 ?        00:00:00 gmain
+   1579    1581 ?        00:00:00 gdbus
+   1583    1583 ?        00:00:00 xdg-permission-
+   1583    1584 ?        00:00:00 gmain
+   1583    1586 ?        00:00:00 gdbus
+   1588    1588 ?        00:00:00 gnome-shell-cal
+   1588    1589 ?        00:00:00 gmain
+   1588    1591 ?        00:00:00 gdbus
+   1588    1592 ?        00:00:00 dconf worker
+   1588    1593 ?        00:00:00 gnome-shell-cal
+   1588    1603 ?        00:00:00 pool-gnome-shel
+   1594    1594 ?        00:00:00 evolution-sourc
+   1594    1595 ?        00:00:00 gmain
+   1594    1596 ?        00:00:00 gdbus
+   1594    1597 ?        00:00:00 dconf worker
+   1604    1604 ?        00:00:00 evolution-calen
+   1604    1605 ?        00:00:00 gmain
+   1604    1606 ?        00:00:00 gdbus
+   1604    1607 ?        00:00:00 dconf worker
+   1604    1608 ?        00:00:00 evolution-calen
+   1604    1609 ?        00:00:00 pool-evolution-
+   1604    1613 ?        00:00:00 pool-evolution-
+   1604    1614 ?        00:00:00 evolution-calen
+   1604    1619 ?        00:00:00 pool-evolution-
+   1612    1612 ?        00:00:00 dconf-service
+   1612    1615 ?        00:00:00 gmain
+   1612    1616 ?        00:00:00 gdbus
+   1617    1617 ?        00:00:00 evolution-addre
+   1617    1624 ?        00:00:00 gmain
+   1617    1625 ?        00:00:00 gdbus
+   1617    1627 ?        00:00:00 dconf worker
+   1617    1628 ?        00:00:00 evolution-addre
+   1617    1630 ?        00:00:00 pool-evolution-
+   1638    1638 ?        00:00:00 gjs
+   1638    1646 ?        00:00:00 JS Helper
+   1638    1647 ?        00:00:00 JS Helper
+   1638    1650 ?        00:00:00 gmain
+   1638    1651 ?        00:00:00 gdbus
+   1641    1641 ?        00:00:00 gvfsd-trash
+   1641    1642 ?        00:00:00 gmain
+   1641    1644 ?        00:00:00 gdbus
+   1660    1660 ?        00:00:00 gsd-a11y-settin
+   1660    1665 ?        00:00:00 gmain
+   1660    1671 ?        00:00:00 gdbus
+   1660    1684 ?        00:00:00 dconf worker
+   1661    1661 ?        00:00:00 gsd-color
+   1661    1712 ?        00:00:00 gmain
+   1661    1746 ?        00:00:00 gdbus
+   1661    1751 ?        00:00:00 dconf worker
+   1662    1662 ?        00:00:00 gsd-datetime
+   1662    1697 ?        00:00:00 gmain
+   1662    1728 ?        00:00:00 gdbus
+   1662    1789 ?        00:00:00 dconf worker
+   1663    1663 ?        00:00:00 gsd-housekeepin
+   1663    1668 ?        00:00:00 gmain
+   1663    1678 ?        00:00:00 gdbus
+   1663    1701 ?        00:00:00 dconf worker
+   1670    1670 ?        00:00:00 gsd-keyboard
+   1670    1704 ?        00:00:00 gmain
+   1670    1740 ?        00:00:00 gdbus
+   1670    1748 ?        00:00:00 dconf worker
+   1673    1673 ?        00:00:00 gsd-media-keys
+   1673    1722 ?        00:00:00 gmain
+   1673    1726 ?        00:00:00 gdbus
+   1673    1785 ?        00:00:00 dconf worker
+   1679    1679 ?        00:00:00 gsd-power
+   1679    1724 ?        00:00:00 gmain
+   1679    1738 ?        00:00:00 gdbus
+   1679    1792 ?        00:00:00 dconf worker
+   1679    7634 ?        00:00:00 threaded-ml
+   1682    1682 ?        00:00:00 gsd-print-notif
+   1682    1690 ?        00:00:00 gmain
+   1682    1695 ?        00:00:00 gdbus
+   1683    1683 ?        00:00:00 gsd-rfkill
+   1683    1686 ?        00:00:00 gmain
+   1683    1689 ?        00:00:00 gdbus
+   1687    1687 ?        00:00:00 gsd-screensaver
+   1687    1691 ?        00:00:00 gmain
+   1687    1700 ?        00:00:00 gdbus
+   1688    1688 ?        00:00:00 gsd-sharing
+   1688    1692 ?        00:00:00 gmain
+   1688    1729 ?        00:00:00 gdbus
+   1688    1741 ?        00:00:00 dconf worker
+   1694    1694 ?        00:00:00 gsd-smartcard
+   1694    1703 ?        00:00:00 gmain
+   1694    1727 ?        00:00:00 gdbus
+   1694    1767 ?        00:00:00 pool-gsd-smartc
+   1694    1781 ?        00:00:00 dconf worker
+   1698    1698 ?        00:00:00 gsd-sound
+   1698    1708 ?        00:00:00 gmain
+   1698    1731 ?        00:00:00 gdbus
+   1698    1783 ?        00:00:00 dconf worker
+   1702    1702 ?        00:00:00 gsd-usb-protect
+   1702    1707 ?        00:00:00 gmain
+   1702    1730 ?        00:00:00 gdbus
+   1702    1782 ?        00:00:00 dconf worker
+   1706    1706 ?        00:00:00 gsd-wacom
+   1706    1736 ?        00:00:00 gmain
+   1706    1762 ?        00:00:00 gdbus
+   1711    1711 ?        00:00:00 gsd-wwan
+   1711    1720 ?        00:00:00 gmain
+   1711    1737 ?        00:00:00 gdbus
+   1711    1784 ?        00:00:00 dconf worker
+   1718    1718 ?        00:00:00 gsd-xsettings
+   1718    1739 ?        00:00:00 gmain
+   1718    1750 ?        00:00:00 gdbus
+   1718    1788 ?        00:00:00 dconf worker
+   1733    1733 ?        00:00:00 gsd-disk-utilit
+   1733    1754 ?        00:00:00 gmain
+   1733    1763 ?        00:00:00 gdbus
+   1735    1735 ?        00:00:00 gsd-printer
+   1735    1747 ?        00:00:00 gmain
+   1735    1753 ?        00:00:00 gdbus
+   1744    1744 ?        00:00:00 ibus-engine-sim
+   1744    1765 ?        00:00:00 gmain
+   1744    1791 ?        00:00:00 gdbus
+   1749    1749 ?        00:00:00 evolution-alarm
+   1749    1830 ?        00:00:00 gmain
+   1749    1831 ?        00:00:00 gdbus
+   1749    1832 ?        00:00:00 dconf worker
+   1749    1833 ?        00:00:00 evolution-alarm
+   1749    1838 ?        00:00:00 evolution-alarm
+   1897    1897 ?        00:00:00 gvfsd-metadata
+   1897    1898 ?        00:00:00 gmain
+   1897    1899 ?        00:00:00 gdbus
+   1900    1900 ?        00:00:00 update-notifier
+   1900    1903 ?        00:00:00 gmain
+   1900    1904 ?        00:00:00 gdbus
+   1900    1905 ?        00:00:00 dconf worker
+   6532    6532 ?        00:01:41 redis-server
+   6532    6533 ?        00:00:00 bio_close_file
+   6532    6534 ?        00:00:00 bio_aof_fsync
+   6532    6535 ?        00:00:00 bio_lazy_free
+   6532    6536 ?        00:00:00 jemalloc_bg_thd
+   7732    7732 ?        00:00:00 gvfsd-network
+   7732    7733 ?        00:00:00 gmain
+   7732    7734 ?        00:00:00 gdbus
+   7732    7738 ?        00:00:00 dconf worker
+   7745    7745 ?        00:00:00 gvfsd-dnssd
+   7745    7746 ?        00:00:00 gmain
+   7745    7747 ?        00:00:00 gdbus
+   7953    7953 ?        00:00:00 kworker/u2:2-ext4-rsv-conversion
+   7956    7956 ?        00:00:39 firefox
+   7956    7964 ?        00:00:00 gmain
+   7956    7965 ?        00:00:00 gdbus
+   7956    7974 ?        00:00:04 IPC I/O Parent
+   7956    7975 ?        00:00:00 Timer
+   7956    7976 ?        00:00:00 Netlink Monitor
+   7956    7977 ?        00:00:05 Socket Thread
+   7956    7978 ?        00:00:00 Permission
+   7956    7981 ?        00:00:00 JS Watchdog
+   7956    7982 ?        00:00:00 JS Helper
+   7956    7983 ?        00:00:00 JS Helper
+   7956    7986 ?        00:00:02 Cache2 I/O
+   7956    7987 ?        00:00:00 Cookie
+   7956    7990 ?        00:00:00 Worker Launcher
+   7956    7991 ?        00:00:02 Softwar~cThread
+   7956    7992 ?        00:00:09 Compositor
+   7956    7993 ?        00:00:00 ImageIO
+   7956    7994 ?        00:00:02 IPDL Background
+   7956    7999 ?        00:00:00 DOM Worker
+   7956    8000 ?        00:00:00 QuotaManager IO
+   7956    8004 ?        00:00:00 ImageBridgeChld
+   7956    8005 ?        00:00:00 Breakpad Server
+   7956    8006 ?        00:00:00 firefox
+   7956    8007 ?        00:00:00 IPC Launch
+   7956    8009 ?        00:00:00 GMPThread
+   7956    8013 ?        00:00:00 FS Broker 8008
+   7956    8014 ?        00:00:00 ProcessHangMon
+   7956    8017 ?        00:00:00 TaskCon~read #0
+   7956    8018 ?        00:00:00 TRR Background
+   7956    8026 ?        00:00:00 dconf worker
+   7956    8027 ?        00:00:00 DNS Resolver #1
+   7956    8028 ?        00:00:00 Cache I/O
+   7956    8029 ?        00:00:00 AudioIPC Callba
+   7956    8030 ?        00:00:00 AudioIPC Server
+   7956    8031 ?        00:00:00 HTML5 Parser
+   7956    8032 ?        00:00:00 DNS Resolver #2
+   7956    8037 ?        00:00:00 threaded-ml
+   7956    8045 ?        00:00:00 DOM Worker
+   7956    8046 ?        00:00:00 localStorage DB
+   7956    8047 ?        00:00:00 localStorage DB
+   7956    8053 ?        00:00:00 mozStorage #1
+   7956    8054 ?        00:00:00 mozStorage #2
+   7956    8055 ?        00:00:00 mozStorage #3
+   7956    8061 ?        00:00:00 FS Broker 8057
+   7956    8067 ?        00:00:00 DOM Worker
+   7956    8068 ?        00:00:00 DOM Worker
+   7956    8078 ?        00:00:03 URL Classifier
+   7956    8079 ?        00:00:00 glean.dispatche
+   7956    8090 ?        00:00:00 mozStorage #4
+   7956    8097 ?        00:00:00 mozStorage #5
+   7956    8098 ?        00:00:00 mozStorage #6
+   7956    8103 ?        00:00:00 FS Broker 8100
+   7956    8106 ?        00:00:00 firefox
+   7956    8110 ?        00:00:00 mozStorage #7
+   7956    8128 ?        00:00:00 mozStorage #8
+   7956    8229 ?        00:00:00 FS Broker 8226
+   7956    9061 ?        00:00:00 DNS Resolver #5
+   7956    9076 ?        00:00:00 FS Broker 9072
+   7956    9102 ?        00:00:00 FS Broker 9099
+   7956    9320 ?        00:00:00 DOMCacheThread
+   7956    9386 ?        00:00:00 Backgro~ool #10
+   7956    9434 ?        00:00:00 StreamTrans #28
+   7956    9435 ?        00:00:00 IndexedDB #34
+   8008    8008 ?        00:00:13 Privileged Cont
+   8008    8012 ?        00:00:00 IPC I/O Child
+   8008    8015 ?        00:00:00 gmain
+   8008    8016 ?        00:00:00 gdbus
+   8008    8019 ?        00:00:00 Socket Thread
+   8008    8021 ?        00:00:00 JS Watchdog
+   8008    8022 ?        00:00:00 JS Helper
+   8008    8023 ?        00:00:00 JS Helper
+   8008    8024 ?        00:00:00 Timer
+   8008    8035 ?        00:00:00 RemoteLzyStream
+   8008    8036 ?        00:00:00 RemVidChild
+   8008    8039 ?        00:00:00 ImageIO
+   8008    8040 ?        00:00:00 Worker Launcher
+   8008    8041 ?        00:00:00 ImageBridgeChld
+   8008    8042 ?        00:00:00 ProcessHangMon
+   8008    8043 ?        00:00:00 ProfilerChild
+   8008    8051 ?        00:00:00 HTML5 Parser
+   8008    8059 ?        00:00:00 TaskCon~read #0
+   8057    8057 ?        00:00:02 WebExtensions
+   8057    8062 ?        00:00:00 IPC I/O Child
+   8057    8063 ?        00:00:00 gmain
+   8057    8064 ?        00:00:00 gdbus
+   8057    8071 ?        00:00:00 Socket Thread
+   8057    8072 ?        00:00:00 JS Watchdog
+   8057    8073 ?        00:00:00 JS Helper
+   8057    8074 ?        00:00:00 JS Helper
+   8057    8075 ?        00:00:00 Timer
+   8057    8076 ?        00:00:00 RemoteLzyStream
+   8057    8077 ?        00:00:00 RemVidChild
+   8057    8081 ?        00:00:00 ImageIO
+   8057    8082 ?        00:00:00 Worker Launcher
+   8057    8083 ?        00:00:00 ImageBridgeChld
+   8057    8084 ?        00:00:00 ProcessHangMon
+   8057    8085 ?        00:00:00 ProfilerChild
+   8057    8086 ?        00:00:00 HTML5 Parser
+   8100    8100 ?        00:01:41 Web Content
+   8100    8104 ?        00:00:02 IPC I/O Child
+   8100    8108 ?        00:00:00 gmain
+   8100    8109 ?        00:00:00 gdbus
+   8100    8112 ?        00:00:00 Socket Thread
+   8100    8113 ?        00:00:00 JS Watchdog
+   8100    8114 ?        00:00:01 JS Helper
+   8100    8115 ?        00:00:01 JS Helper
+   8100    8116 ?        00:00:01 Timer
+   8100    8117 ?        00:00:00 RemoteLzyStream
+   8100    8118 ?        00:00:00 RemVidChild
+   8100    8119 ?        00:00:00 ImageIO
+   8100    8120 ?        00:00:00 Worker Launcher
+   8100    8121 ?        00:00:00 ImageBridgeChld
+   8100    8122 ?        00:00:00 ProcessHangMon
+   8100    8123 ?        00:00:00 ProfilerChild
+   8100    8129 ?        00:00:00 HTML5 Parser
+   8100    8170 ?        00:00:00 TaskCon~read #0
+   8100    8174 ?        00:00:00 firefox:disk$0
+   8100    8175 ?        00:00:00 firefox:disk$1
+   8100    8176 ?        00:00:00 firefox:disk$2
+   8100    8177 ?        00:00:00 firefox:disk$3
+   8226    8226 ?        00:00:05 Web Content
+   8226    8230 ?        00:00:00 IPC I/O Child
+   8226    8231 ?        00:00:00 gmain
+   8226    8232 ?        00:00:00 gdbus
+   8226    8234 ?        00:00:00 Socket Thread
+   8226    8235 ?        00:00:00 JS Watchdog
+   8226    8236 ?        00:00:00 JS Helper
+   8226    8237 ?        00:00:00 JS Helper
+   8226    8238 ?        00:00:00 Timer
+   8226    8239 ?        00:00:00 RemoteLzyStream
+   8226    8240 ?        00:00:00 RemVidChild
+   8226    8241 ?        00:00:00 ImageIO
+   8226    8242 ?        00:00:00 ImageBridgeChld
+   8226    8243 ?        00:00:00 ProcessHangMon
+   8226    8244 ?        00:00:00 ProfilerChild
+   8226    9060 ?        00:00:00 Worker Launcher
+   8226    9062 ?        00:00:00 HTML5 Parser
+   8226    9063 ?        00:00:00 TaskCon~read #0
+   8226    9089 ?        00:00:00 firefox:disk$0
+   8226    9090 ?        00:00:00 firefox:disk$1
+   8226    9091 ?        00:00:00 firefox:disk$2
+   8226    9092 ?        00:00:00 firefox:disk$3
+   8967    8967 ?        00:00:00 kworker/u2:0-events_power_efficient
+   8995    8995 ?        00:00:00 kworker/0:0-events
+   9025    9025 ?        00:00:00 kworker/u2:1-events_unbound
+   9066    9066 ?        00:00:00 kworker/0:1-events
+   9072    9072 ?        00:00:09 Web Content
+   9072    9077 ?        00:00:00 IPC I/O Child
+   9072    9078 ?        00:00:00 gmain
+   9072    9080 ?        00:00:00 gdbus
+   9072    9082 ?        00:00:00 Socket Thread
+   9072    9083 ?        00:00:00 JS Watchdog
+   9072    9084 ?        00:00:00 JS Helper
+   9072    9085 ?        00:00:00 JS Helper
+   9072    9086 ?        00:00:00 Timer
+   9072    9087 ?        00:00:00 RemoteLzyStream
+   9072    9088 ?        00:00:00 RemVidChild
+   9072    9093 ?        00:00:00 ImageIO
+   9072    9094 ?        00:00:00 Worker Launcher
+   9072    9095 ?        00:00:00 ImageBridgeChld
+   9072    9096 ?        00:00:00 ProcessHangMon
+   9072    9097 ?        00:00:00 ProfilerChild
+   9072    9098 ?        00:00:00 HTML5 Parser
+   9072    9122 ?        00:00:00 TaskCon~read #0
+   9072    9431 ?        00:00:00 DOM Worker
+   9072    9432 ?        00:00:00 StreamTrans #8
+   9072    9433 ?        00:00:00 StreamTrans #9
+   9099    9099 ?        00:00:00 Web Content
+   9099    9103 ?        00:00:00 IPC I/O Child
+   9099    9104 ?        00:00:00 gmain
+   9099    9105 ?        00:00:00 gdbus
+   9099    9108 ?        00:00:00 Socket Thread
+   9099    9109 ?        00:00:00 JS Watchdog
+   9099    9110 ?        00:00:00 JS Helper
+   9099    9111 ?        00:00:00 JS Helper
+   9099    9112 ?        00:00:00 Timer
+   9099    9113 ?        00:00:00 RemoteLzyStream
+   9099    9114 ?        00:00:00 RemVidChild
+   9099    9115 ?        00:00:00 ImageIO
+   9099    9116 ?        00:00:00 ImageBridgeChld
+   9099    9117 ?        00:00:00 ProcessHangMon
+   9099    9118 ?        00:00:00 ProfilerChild
+   9157    9157 ?        00:00:00 anacron
+   9402    9402 ?        00:00:01 gnome-terminal-
+   9402    9403 ?        00:00:00 gmain
+   9402    9404 ?        00:00:00 gdbus
+   9402    9405 ?        00:00:00 dconf worker
+   9402    9409 ?        00:00:00 threaded-ml
+   9410    9410 pts/1    00:00:00 bash
+   9437    9437 pts/1    00:00:00 ps

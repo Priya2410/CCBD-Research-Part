@@ -1,0 +1,6 @@
+Serial Number,System-Calls,Number of Times
+1,epoll_wait,1906
+2,read,1906
+3,openat,1906
+4,close,1906
+5,getpid,1906

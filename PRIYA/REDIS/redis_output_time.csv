@@ -1,0 +1,6 @@
+Serial Number,System-Calls,Average Time in ms
+1,epoll_wait,102.873
+2,read,0.294
+3,openat,0.144
+4,close,0.056
+5,getpid,0.042

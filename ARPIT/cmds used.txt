@@ -1,0 +1,5 @@
+commands used:
+perf trace -p pid -s
+&
+perf stat 'syscalls:sys_enter_*' -p pid
+(note: both commands are used to trace system calls but the first command is upto 6 times faster giving output thread wise while the second command gives a summarised stat of system calls for all threads running that process)

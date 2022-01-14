@@ -1,0 +1,12 @@
+System-Calls,Number of Times
+mmap,1
+close,193
+socket,250
+setsockopt,250
+fcntl,250
+madvise,300
+connect,500
+epoll_wait,23361
+read,581918
+write,582761
+epoll_ctl,2910128

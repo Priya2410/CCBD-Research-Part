@@ -1,0 +1,19 @@
+System-Calls,Average Time in ms
+wait4,2.626
+clone,0.467
+write,0.019
+pipe,0.018
+ioctl,0.014
+stat,0.014
+read,0.012
+access,0.01
+setpgid,0.01
+rt_sigprocmask,0.008
+rt_sigaction,0.007
+getegid,0.007
+geteuid,0.007
+getuid,0.007
+getgid,0.007
+fcntl,0.007
+close,0.006
+pselect6,0

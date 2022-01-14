@@ -1,0 +1,14 @@
+System-Calls,Number of Times
+rt_sigaction,21
+ioctl,15
+rt_sigprocmask,14
+write,7
+pselect6,6
+read,6
+select,5
+wait4,2
+close,2
+clone,1
+pipe,1
+setpgid,1
+fcntl,1

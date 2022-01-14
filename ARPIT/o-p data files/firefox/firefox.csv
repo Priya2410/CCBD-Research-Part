@@ -1,0 +1,8 @@
+,sys_calls,no_of_calls,avg_time(ms)
+0,poll,141,302.552
+1,recvmsg,388,0.29900000000000004
+2,write,85,0.255
+3,read,60,0.047999999999999994
+4,futex,5,0.343
+5,epoll_wait,58,2943.808
+6,sendmsg,4,0.026

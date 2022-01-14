@@ -1,0 +1,281 @@
+strace: Process 2406 attached
+restart_syscall(<... resuming interrupted read ...>) = 1
+read(9, "\372", 1)                      = 1
+futex(0x7f349482d638, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f349482d5e0, FUTEX_WAKE_PRIVATE, 1) = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+futex(0x7f34898ff9d0, FUTEX_WAIT, 3027, NULL) = 0
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+write(19, "\372", 1)                    = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 1 ([{fd=9, revents=POLLIN}])
+read(9, "\372", 1)                      = 1
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, 0) = 0 (Timeout)
+poll([{fd=8, events=POLLIN}, {fd=9, events=POLLIN}], 2, -1strace: Process 2406 detached
+ <detached ...>

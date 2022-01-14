@@ -1,0 +1,18 @@
+System-Calls,Number of Times
+rt_sigaction,21
+ioctl,15
+rt_sigprocmask,14
+stat,10
+access,4
+getegid,4
+geteuid,4
+getuid,4
+getgid,4
+wait4,2
+write,2
+close,2
+clone,1
+pipe,1
+read,1
+setpgid,1
+fcntl,1

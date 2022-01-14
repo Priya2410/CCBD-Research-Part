@@ -1,0 +1,14 @@
+System-Calls,Average Time in ms
+pselect6,427.666
+wait4,4.57
+clone,0.321
+pipe,0.021
+rt_sigprocmask,0.018
+ioctl,0.015
+write,0.013
+read,0.01
+setpgid,0.009
+rt_sigaction,0.008
+select,0.008
+fcntl,0.008
+close,0.007

@@ -1,0 +1,20 @@
+System-Calls,Number of Times
+ioctl,29
+write,25
+rt_sigaction,22
+openat,12
+access,12
+read,12
+close,11
+fstat,9
+mmap,8
+Pread64,6
+mprotect,4
+socket,3
+Brk,3
+rt_sigprocmask,3
+arch_prctl,2
+Execve,1
+munmap,1
+Uname,1
+Setpgid,1

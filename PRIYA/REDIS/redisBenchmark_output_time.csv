@@ -1,0 +1,11 @@
+System-Calls,Average Time in ms
+connect,0.129
+epoll_wait,0.04
+madvise,0.037
+write,0.033
+socket,0.026
+epoll_ctl,0.022
+read,0.022
+setsockopt,0.021
+fcntl,0.008
+close,0.007

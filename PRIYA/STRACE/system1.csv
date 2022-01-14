@@ -1,0 +1,85 @@
+Serial Number,System-Calls,Number of Times
+1,recvmsg,127
+2,poll,122
+3,read,48
+4,write,26
+5,futex,11
+Serial Number,System-Calls,Number of Times
+1,poll,172
+2,read,69
+3,write,34
+4,futex,3
+Serial Number,System-Calls,Number of Times
+1,recvmsg,8997
+2,poll,4484
+3,read,1760
+4,write,1502
+5,futex,1455
+Serial Number,System-Calls,Number of Times
+1,recvmsg,7325
+2,poll,3588
+3,read,1466
+4,write,1337
+5,futex,1308
+6,mprotect,78
+7,madvise,18
+8,dup,4
+9,close,3
+10,clone,3
+11,setpriority,1
+12,mmap,1
+13,getpriority,1
+Serial Number,System-Calls,Number of Times
+1,recvmsg,765
+2,poll,330
+3,read,124
+4,write,99
+5,futex,33
+Serial Number,System-Calls,Number of Times
+1,recvmsg,191955
+2,poll,95967
+3,futex,59422
+4,read,38675
+5,write,21828
+6,mprotect,182
+7,madvise,47
+8,mmap,22
+9,getpid,22
+10,memfd_create,16
+11,fallocate,16
+12,dup,16
+13,close,16
+14,munmap,11
+15,getrandom,1
+Serial Number,System-Calls,Number of Times
+1,recvmsg,10500
+2,poll,5223
+3,futex,3851
+4,write,2238
+5,read,2028
+6,madvise,113
+7,mmap,31
+8,dup,20
+9,close,19
+10,mprotect,18
+11,munmap,16
+12,memfd_create,16
+13,fallocate,16
+14,getpid,12
+15,clone,3
+16,getrandom,2
+17,setpriority,1
+18,gettid,1
+19,getpriority,1
+Serial Number,System-Calls,Number of Times
+1,recvmsg,2125
+2,poll,1036
+3,futex,687
+4,write,472
+5,read,367
+Serial Number,System-Calls,Number of Times
+1,recvmsg,552
+2,poll,246
+3,read,93
+4,write,81
+5,futex,31

@@ -1,0 +1,20 @@
+System-Calls,Average Time in ms
+execve,86.304
+munmap,0.032
+openat,0.022
+mprotect,0.022
+access,0.018
+read,0.017
+socket,0.017
+mmap,0.016
+write,0.014
+uname,0.011
+brk,0.01
+ioctl,0.006
+close,0.006
+fstat,0.006
+setpgid,0.006
+pread64,0.005
+rt_sigprocmask,0.005
+arch_prctl,0.005
+rt_sigaction,0.004

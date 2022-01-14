@@ -1,0 +1,1354 @@
+strace: Process 2108 attached
+restart_syscall(<... resuming interrupted read ...>) = 1
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0B\0\0\0\1\0\2\0\260\266%\0\7\0\t\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 296
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0D\0\0\0\1\0\2\0\225\277%\0\7\0\f\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 304
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0B\0\0\0\1\0\2\0.\302%\0\7\0\t\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 296
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0D\0\0\0\1\0\2\0\317\304%\0\7\0\f\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 304
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0B\0\0\0\1\0\2\0\240\310%\0\7\0\t\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 296
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0D\0\0\0\1\0\2\0\244\334%\0\7\0\f\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 304
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0B\0\0\0\1\0\2\0p\337%\0\7\0\t\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 296
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0D\0\0\0\1\0\2\0JY&\0\7\0\f\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 304
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0B\0\0\0\1\0\2\0\311Y&\0\7\0\t\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 296
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0D\0\0\0\1\0\2\0\23]&\0\7\0\f\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 304
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0B\0\0\0\1\0\2\0\260]&\0\7\0\t\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 296
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0D\0\0\0\1\0\2\0\214^&\0\7\0\f\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 304
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0B\0\0\0\1\0\2\0\210a&\0\7\0\t\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 296
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0D\0\0\0\1\0\2\0\341b&\0\7\0\f\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 304
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0B\0\0\0\1\0\2\0j\27(\0\7\0\t\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 296
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0D\0\0\0\1\0\2\0\273\33(\0\7\0\f\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 304
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f1a5dc59268, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="U\2\242\0\30'(\0\3\4\4\0\0\0\0\0\0\0\0\4\4\4\4\4\0\0\3\37%\2\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(15, "\0", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="U\2\242\0\370,(\0\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\37%\3\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="U\2\242\0\r3(\0\3\4\4\0\0\0\0\0\0\0\0\4\4\4\4\4\0\0\3\37%\2\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="U\2\242\0\2544(\0\3\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\37%\3\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0B\0\0\0\1\0\2\0\364C(\0\7\0\t\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 296
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="#\204\242\0D\0\0\0\1\0\2\0\354E(\0\7\0\f\0\1\0\0\0\0\0\0\0\0\0\0\0"..., iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 304
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+futex(0x7f1a5dc592c0, FUTEX_WAKE_PRIVATE, 1) = 1
+write(9, "\372", 1)                     = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 1 ([{fd=8, revents=POLLIN}])
+read(8, "\372", 1)                      = 1
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, 0) = 0 (Timeout)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1) = 1 ([{fd=17, revents=POLLIN}])
+recvmsg(17, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="U\2\242\0{M(\0\3\4\4\0\0\0\0\0\0\0\0\4\4\4\4\4\0\0\3\37%\2\0\0", iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 32
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+recvmsg(17, {msg_namelen=0}, 0)         = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=8, events=POLLIN}, {fd=17, events=POLLIN}, {fd=18, events=POLLIN}], 3, -1strace: Process 2108 detached
+ <detached ...>
